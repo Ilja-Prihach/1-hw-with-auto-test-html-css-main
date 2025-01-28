@@ -99,15 +99,40 @@
         <input type="submit" value="Добавить">
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
         <hr>
-        <table data-cy="hw-about-table-pre">
+        <table style="border: 1px solid black;" data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
                         - В последнем ряду первая ячейка должна занимать 2 столбца (как должно выглядеть - смотри образец). Таблицу можно заполнять любыми данными -->
+            <tr>
+                <th style="border: 1px solid black;">П/П</th>
+                <th style="border: 1px solid black;">Наименование</th>
+                <th style="border: 1px solid black;">Количество</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">1</td>
+                <td style="border: 1px solid black;">Монитор</td>
+                <td style="border: 1px solid black;">2</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">2</td>
+                <td style="border: 1px solid black;">Клавиатура</td>
+                <td style="border: 1px solid black;">1</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">3</td>
+                <td style="border: 1px solid black;">Мышь</td>
+                <td style="border: 1px solid black;">1</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;" colspan="2">Итого:</td>
+                <td style="border: 1px solid black;">4</td>
+            </tr>           
         </table>
     </section>
     <footer data-cy="hw-footer-pre">
         <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
+        <a href="https://it-incubator.io/">it-incubator</a>
     </footer>
 </body>
 </html>
